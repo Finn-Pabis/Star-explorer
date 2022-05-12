@@ -27,7 +27,7 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    opacity: 70%;
   }
 /* IDS UND CLASSES*/
 
