@@ -1,7 +1,11 @@
 /* COLORS */
 
 /* HTML AND BODY */
-
+main li {
+    width:80%;
+    background: rgb(0, 0, 0) url(img/milky-way-galaxy.jpg) no-repeat scroll;
+    margin:0pt auto;
+}
 /* NAVIGATION BAR */
 ul {
     list-style-type: none;
