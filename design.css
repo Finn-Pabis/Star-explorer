@@ -53,6 +53,12 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/* Glow effekt -> noch angepasst werden das es cooler aussieht */
+.dropdown-content {
+    box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
+    text-align: center;
+  }
   
 
 /* IDS UND CLASSES*/
