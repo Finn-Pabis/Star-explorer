@@ -57,18 +57,29 @@ body {
 }
 
 .navMenu a:nth-child(2):hover ~ .dot {
-  -webkit-transform: translateX(150px);
-  transform: translateX(150px);
+  -webkit-transform: translateX(138px);
+  transform: translateX(138px);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
 
 .navMenu a:nth-child(3):hover ~ .dot {
-  -webkit-transform: translateX(229px);
-  transform: translateX(229px);
+  -webkit-transform: translateX(252px);
+  transform: translateX(252px);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
 
+.navMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(345px);
+  transform: translateX(345px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+#Galerie {
+    margin-right: 0.5em;
+}
