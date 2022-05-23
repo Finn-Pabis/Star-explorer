@@ -22,35 +22,40 @@
     }
     
  
-    /* IDS UND CLASSES
-    #Sonne{
-        
+    /* IDS UND CLASSES*/
+    #solar-system_bild{
+  width:100%;
+  height:auto;
+  margin:0;
+}
+    #Sonne:hover{
+        cursor: pointer;
     }
-    #Merkur{
+    #Merkur:hover{
+        cursor: pointer;
+    }
+    #Venus:hover{
+        cursor: pointer;
+    }
+    #Erde:hover{
+        cursor: pointer;
+    }
+    #Mars:hover{
+        cursor: pointer;
+    }
+    #Jupiter:hover{
+        cursor: pointer;
+    }
+    #Saturn:hover{
+        cursor: pointer;
+    }
+    #Uranus:hover{
+        cursor: pointer;
+    }
+    #Neptun:hover{
+        cursor: pointer;
+    }
 
-    }
-    #Venus{
-    
-    }
-    #Erde{
-
-    }
-    #Mars{
-
-    }
-    #Jupiter{
-
-    }
-    #Saturn{
-
-    }
-    #Uranus{
-
-    }
-    #Neptun{
-
-    }
-*/
   
     /* MEDIA QUERY */
     
