@@ -8,16 +8,23 @@
 }
 
 body {
-  background: #272727;
+  background: #181818;
   font-family: "Montserrat", sans-serif;
+  overflow:none;
 }
 
 .navMenu {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  position: sticky;
+  top: 2em;
+  margin-left: 50vw;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:55vh;
+  width:100vw;
+  
 }
 
 .navMenu a {
@@ -49,32 +56,36 @@ body {
 }
 
 .navMenu a:nth-child(1):hover ~ .dot {
-  -webkit-transform: translateX(30px);
-  transform: translateX(30px);
+  margin-top: 25px;
+  -webkit-transform: translateX(-27.5vw);
+  transform: translateX(-27.5vw);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
 
 .navMenu a:nth-child(2):hover ~ .dot {
-  -webkit-transform: translateX(138px);
-  transform: translateX(138px);
+  margin-top: 25px;
+  -webkit-transform: translateX(-20vw);
+  transform: translateX(-20vw);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
 
 .navMenu a:nth-child(3):hover ~ .dot {
-  -webkit-transform: translateX(252px);
-  transform: translateX(252px);
+  margin-top: 25px;
+  -webkit-transform: translateX(-12.35vw);
+  transform: translateX(-12.35vw);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
 
 .navMenu a:nth-child(4):hover ~ .dot {
-  -webkit-transform: translateX(345px);
-  transform: translateX(345px);
+  margin-top: 25px;
+  -webkit-transform: translateX(-5.6vw);
+  transform: translateX(-5.6vw);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 1;
@@ -82,4 +93,15 @@ body {
 
 #Galerie {
     margin-right: 0.5em;
+}
+
+#home_galaxy{
+  height:100vh;
+  width:100vw;
+  min-width: 80%;
+  min-height: 80%;
+}
+
+#spacer{
+  height:45vh;
 }
