@@ -1,0 +1,127 @@
+/* Nav Bar */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.home-body {
+  background: black;
+  font-family: "Montserrat", sans-serif;
+  overflow:none;
+}
+
+.navMenu {
+  position: sticky;
+  top: 2em;
+  margin-left: 50vw;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:55vh;
+  width:100vw;
+  
+}
+
+.navMenu a {
+  color: #f6f4e6;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 100px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: white;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: white;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  margin-top: 25px;
+  -webkit-transform: translateX(-380px);
+  transform: translateX(-380px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  margin-top: 25px;
+  -webkit-transform: translateX(-275px);
+  transform: translateX(-275px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  margin-top: 25px;
+  -webkit-transform: translateX(-167px);
+  transform: translateX(-167px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(4):hover ~ .dot {
+  margin-top: 25px;
+  -webkit-transform: translateX(-78px);
+  transform: translateX(-78px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+#Galerie {
+    margin-right: 0.5em;
+}
+
+#home_galaxy{
+  height:100vh;
+  width:100vw;
+  min-width: 80%;
+  min-height: 80%;
+}
+
+#spacer{
+  height:45vh;
+}
+/* Planeten Übersicht Galery */
+.planeten-objekt {
+  display: inline;
+  width: 600px;
+  height: 600px;
+  border-top-left-radius: 47%;
+  border-top-right-radius: 47%;
+  border-bottom-left-radius: 47%;
+  border-bottom-right-radius: 47%;
+  padding: 50px 50px;
+  margin-left: 10em;
+  margin-top: 5em;
+}
+.planeten-objekt {
+  transition: all .2s ease-in-out;
+}
+.planeten-objekt:hover {
+  transform: scale(1.1);
+}
+
