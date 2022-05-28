@@ -297,7 +297,7 @@ h1{
   }
 
   @media(max-width:970px) {
-    #saturn_cutout, #iphone, #iphone_bg{
+    #saturn_cutout, #paint, #iphone_bg{
       opacity: 0;
     }
   }
