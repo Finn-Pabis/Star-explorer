@@ -113,6 +113,8 @@ h1{
 .body {
   background: black;
   font-family: "Montserrat", sans-serif;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .navMenu {
