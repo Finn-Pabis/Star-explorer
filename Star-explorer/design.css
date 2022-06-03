@@ -260,6 +260,7 @@ h1{
 .object{
     position: relative;
     display: inline;
+    float: left;
 }
 
 .planet {
