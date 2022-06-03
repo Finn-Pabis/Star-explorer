@@ -116,6 +116,10 @@ h1{
   width: 100%;
   overflow-x: hidden;
 }
+.container{
+  width: 100%;
+  overflow-x: hidden;
+}
 
 .navMenu {
   position: fixed;
