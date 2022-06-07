@@ -48,7 +48,7 @@ header{
 }
 #paint{
     position: absolute;
-    top: calc(80% + 10vw);
+    top: calc(90% + 6vw);
     left: 20px;
     width: calc(35% + 8vw);
     z-index: -1;
